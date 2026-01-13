@@ -9,18 +9,18 @@ BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 GROUP_PAIRS = [
    {
-        "source_group_id": -1002529651007,     # Group A1
-        "dest_group_id": -4707332741,         # Group B1
-        "allowed_user_ids": [7736896844,5755763845,7831921686]      # Allowed users in Group A1
+        "source_group_id": -1002529251007,     # Group A1
+        "dest_group_id": -4707332791,         # Group B1
+        "allowed_user_ids": [7736896824,5755733845,7834921686]      # Allowed users in Group A1
     },
     {
-        "source_group_id": -4788525991,    # Group A2
-        "dest_group_id": -4789201862,      # Group B2
-        "allowed_user_ids": [7673528399,104784211]
+        "source_group_id": -4788825991,    # Group A2
+        "dest_group_id": -4789231862,      # Group B2
+        "allowed_user_ids": [7673538399,1047684211]
     },
 ]
 
-BANNED_KEYWORDS = ["总入款", "汇率", "交易费率", "pay"]
+BANNED_KEYWORDS = ["pay"]
 
 # === In-memory message ID map ===
 # (src_group, src_msg_id) → dest_msg_id
